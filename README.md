@@ -6,6 +6,7 @@ An example project showing how to do JMS bridging in Apache Artemis using Apache
 
 - [Apache Maven 3.x](http://maven.apache.org)
 - [Apache Artemis 2.0.0](https://activemq.apache.org/artemis/)
+- [IBM MQ 9.x](https://www.ibm.com/software/integration/wmq/library/)
 
 ## Preparing
 
