@@ -12,7 +12,7 @@ An example project showing how to do JMS bridging in Apache Artemis using Apache
 
 Install and run IBM MQ [[https://www.ibm.com/support/knowledgecenter/en/SSFKSJ_9.0.0/com.ibm.mq.ins.doc/q008640_.htm](https://www.ibm.com/support/knowledgecenter/en/SSFKSJ_9.0.0/com.ibm.mq.ins.doc/q008640_.htm)]
 
-_Note: For my tests, I chose to run the docker image [https://hub.docker.com/r/ibmcom/mq/]. You can run it using the command `docker run --name ibmmq --env LICENSE=accept --env MQ_QMGR_NAME=QM1 --publish 1414:1414 --publish 9443:9443 --detach ibmcom/mq`. You can then connect to the web console at [https://localhost:9443/ibmmq/console/]._
+_Note: For my tests, I chose to run the docker image [https://hub.docker.com/r/ibmcom/mq/]. You can run it using the command `docker run --name ibmmq --env LICENSE=accept --env MQ_QMGR_NAME=QM1 --publish 1414:1414 --publish 9443:9443 --detach ibmcom/mq`. You can then connect to the web console at [[https://localhost:9443/ibmmq/console/](https://localhost:9443/ibmmq/console/)]._
 
 Install and run Apache Artemis [[https://activemq.apache.org/artemis/docs/2.0.0/using-server.html](https://activemq.apache.org/artemis/docs/2.0.0/using-server.html)]
 
